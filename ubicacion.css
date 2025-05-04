@@ -8,7 +8,7 @@
 }
 
 body {
-    background-image: url("../img/fondopierna.avif");
+    background-image: url(fondopierna.avif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -18,7 +18,7 @@ body {
 }
 
 .hero {
-    background-image: url("../img/fondopierna.avif");
+    background-image: url(fondopierna.avif);
     background-size: cover;
     background-position: center;
 }
@@ -91,7 +91,7 @@ nav ul li:hover {
     }
 
     .boton_menu {
-        background-image: url('../img/botonpollo.png');
+        background-image: url(botonpollo.png);
         background-color: #8B0000;
         background-repeat: no-repeat;
         background-size: 30px 30px;
@@ -123,7 +123,7 @@ nav ul li:hover {
     }
 
     .colocar_x {
-        background-image: url('../img/botonpollo.png');
+        background-image: url(botonpollo.png);
         background-color: #8B0000;
         background-repeat: no-repeat;
         background-size: 30px 30px;
@@ -204,11 +204,11 @@ nav ul li:hover {
     position: fixed;
     bottom: 0;
     left: 0;
-    width: 250px; /* ajustá el tamaño */
+    width: 250px; 
     height: auto;
     z-index: 999;
     opacity: 0.8;
-    pointer-events: none; /* para que no interfiera con clics */
+    pointer-events: none;
 }
 .decoracion-inferior-izquierda {
     animation: flotando 4s ease-in-out infinite;
