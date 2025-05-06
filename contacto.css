@@ -12,7 +12,7 @@ body {
     background-size: cover;
     height: 10vh;
     background-color: #ffffff;
-    font-family: Brush Script MT;
+    font-family: Brush Script MT, sans-serif;
 }
 
 .hero {
